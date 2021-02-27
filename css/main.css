@@ -1,0 +1,145 @@
+/*FONTS============================================================*/
+@font-face {
+  font-family: "Product Sans";
+  src: url("fonts/Product-Sans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("fonts/Product-Sans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+}
+
+/*=================================================================*/
+
+/*COMMON STYLES====================================================*/
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  -moz-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+body {
+  font-family: "Product Sans", sans-serif;
+}
+
+._heading-first {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+._heading-second {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+._heading-third {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+._heading-forth {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+._download-btn {
+  width: 261px;
+  height: 80px;
+  background: #2ED158;
+  box-shadow: 0px 51px 80px rgba(152, 254, 141, 0.07), 0px 22.1136px 40.5122px rgba(152, 254, 141, 0.0503198), 0px 11.6392px 23.6918px rgba(152, 254, 141, 0.0417275), 0px 6.19289px 13.3096px rgba(152, 254, 141, 0.035), 0px 3.03779px 6.54036px rgba(152, 254, 141, 0.0282725), 0px 1.13927px 2.27838px rgba(152, 254, 141, 0.0196802);
+  border-radius: 10px;
+}
+
+._download-btn:hover {
+  background: #1B1B20;
+  border: 1px solid #2ED158;
+}
+
+._download-btn:active {
+  border: 1px solid #2ED158;
+  background: #2C2C32;
+}
+
+/*===================================================================*/
+.wrapper {
+  background: rgba(27, 27, 32, 1);
+}
+
+.header {
+
+}
+
+.header_padding {
+  padding-top: 27px;
+  padding-bottom: 26px;
+}
+
+.header__download-btn {
+  box-sizing: border-box;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  width: 261px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #2ED158;
+  color: #1B1B20;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.header__download-btn > p {
+  width: 130px;
+  margin-left: 31px;
+  margin-right: 17px;
+}
+
+.header__download-btn > img {
+  width: 50px;
+  height: 50px;
+  -webkit-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)), drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)), drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)), drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)), drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)), drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+          filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)), drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)), drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)), drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)), drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)), drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
