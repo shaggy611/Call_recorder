@@ -165,6 +165,7 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 20px;
 }
 
 .header__logo {
