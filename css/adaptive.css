@@ -90,9 +90,10 @@
           padding-bottom: 0px;
       }
 
-    .header__logo > p {
-        display: none;
-      }
+      .header__logo > p {
+        margin-left: 10px;
+        font-size: 20px !important;
+    }
 
       .header__logo {
         margin-left: 17px;
@@ -338,6 +339,11 @@
     .footer__policies {
         width: auto;
         margin-bottom: 8px;
+    }
+
+    .terms-text {
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
 }

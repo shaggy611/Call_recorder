@@ -151,6 +151,7 @@ body {
 
 .__download-btn {
   width: 261px;
+  padding: 0;
 }
 
 /*===================================================================*/
@@ -187,7 +188,7 @@ body {
 
 .header_padding {
   padding-top: 27px;
-  padding-bottom: 26px;
+  padding-bottom: 6px;
 }
 
 .header__download-btn {
@@ -482,3 +483,38 @@ body {
 .footer__twitter:hover {
   content: url('/img/twiter-green.svg');
 }
+
+.terms-text {
+  background: rgb(248 249 252);
+  padding: 60px 0 100px;
+  min-height: 400px;
+}
+
+.terms-text .section-title {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 69px;
+  color: rgb(0 0 0);
+  margin-bottom: 10px;
+}
+
+.terms-text .section-text h2 {
+  margin: 50px 0 15px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: rgb(0 0 0);
+}
+
+.terms-text > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.terms-text .section-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(120 129 156);
+}
+
+
